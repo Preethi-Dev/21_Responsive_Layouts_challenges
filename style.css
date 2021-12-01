@@ -1,0 +1,47 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+  }
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+.intro{
+    background-color: #23424A;
+  }
+.container{
+    width: 80%;
+    padding: 9.25rem 0;
+    margin: auto;
+}
+.sub-container{
+    width: 55%;
+    max-width: 750px;
+}
+.heading{
+    font-size: 3rem;
+    font-weight: 900;
+    color: #FFFFFF;
+}
+.cta{
+    font-size: 1.3125rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    background: #38CFD9;
+    color: #23424A;
+    padding: 1rem 3rem;
+    border-radius: 2rem;
+    text-decoration: none;
+    display: inline-block;
+    margin: 2rem 0;
+}
+.heading, .content{
+    margin: 1rem 0;
+}
+.content{
+    font-size: 1.3125rem;
+    color: #FFFFFF;
+}
