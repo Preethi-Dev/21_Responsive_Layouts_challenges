@@ -42,7 +42,6 @@ h1 {
 .row {
     /* display: flex => flex container */
     display: flex;
-
     /* can't use yet */
     /* gap: 100px; */
 }
@@ -79,6 +78,10 @@ h1 {
     color: #FFF;
 }
 
+
+.hero__image{
+    align-self: flex-start;
+}
 .hero__text {
     width: 60%;
 }
