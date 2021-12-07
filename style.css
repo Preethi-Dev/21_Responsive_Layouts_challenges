@@ -39,7 +39,7 @@ h1 {
     margin: 0 auto;
 }
 
-.row, .row-02 {
+.row {
     /* display: flex => flex container */
     display: flex;
 
@@ -70,7 +70,7 @@ h1 {
 }
 
 .three-col, .two-col{
-    padding: 5rem;
+    padding: 5rem 0;
 }
 
 .hero {
