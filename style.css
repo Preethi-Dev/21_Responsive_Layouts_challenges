@@ -68,13 +68,11 @@ p{
 
 .hero__text, .left__content { 
     width: 62%;
-    /* border: 1px solid red; */
 }
 
 .hero__img, .right__content {
     width: 32%;
     align-self: flex-start;
-    /* border: 2px solid black; */
 }
 
 .hero p {
@@ -93,7 +91,6 @@ p{
     margin: auto;
 }
 .right__content{
-    /* border: 2px solid black; */
     background: #136C72;
     color: white;
     text-align: center;
