@@ -1,2 +1,106 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&display=swap');
+
+*, *::before, *::after{
+    box-sizing: border-box;
+}
+
+:root{
+    font-size: 16px;
+}
+
+img{
+   width: 100%;
+}
+
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1{
+    font-size: 3.75rem;
+    font-family: 'Playfair Display', serif;
+}
+
+h2{
+    font-size: 2.25rem;
+    font-weight: 700;
+    font-family: 'Playfair Display', serif;
+}
+
+p{
+    font-size: 1.3125rem;
+    font-weight: 400;
+}
+
+.container{
+    width: 100%;
+    max-width: 1128px;
+    margin: 0 auto;
+}
+
+.row{
+    display: flex;
+    justify-content: space-between;
+}
+
+.hero{
+    background-color: #F3EED9;
+}
+
+.hero__items{
+    min-height: 660px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.hero__p{
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: .10rem;
+}
+
+.hero__h1{
+    max-width: 750px;
+    margin: 0 auto;
+    color: #824936;
+}
+
+.space + .space{
+    margin-left: 1rem;
+}
+
+.about, .feature, .final{
+    padding: 5em 0;
+}
+
+.about__primary--text h2{
+    text-align: center;
+    color: #824936;
+}
+
+.w-47{
+   width: 47%;
+}
+
+.feature{
+    background-color: #222C2A;
+}
+
+.final{
+    background-color: #824936;
+}
+
+.primary-color{
+    color: #F3EED9;   
+}
+
+.secondary-color{
+    color: white;
+}
+
+
+
