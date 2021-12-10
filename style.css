@@ -73,16 +73,24 @@ header {
     padding: 1em 0;
 }
 
+.nav{
+    display: flex;
+    justify-content: space-between;
+}
+
 .nav__list {
     margin: 0;
     padding: 0;
     list-style: none;
     display: flex;
-    border: 1px solid black;
 }
 
 .nav__item + .nav__item{
     margin-left: 1em;
+}
+
+.nav__list--right-push{
+    margin-left: 50rem;
 }
 
 .nav__link {
@@ -137,3 +145,4 @@ header {
     color: #fff;
     background-color: #136c72;
 }
+
