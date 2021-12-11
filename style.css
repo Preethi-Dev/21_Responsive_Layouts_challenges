@@ -35,8 +35,7 @@ p{
 }
 
 .container{
-    width: 100%;
-    max-width: 1128px;
+    width: min(100%, 1128px);
     margin: 0 auto;
 }
 
