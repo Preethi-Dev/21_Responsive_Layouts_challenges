@@ -6,15 +6,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-        p{
-            font-size: clamp(1rem, 1.5vw, 3rem);
+        html,body{
+            height: 100%;
+        }
+        div{
+            background-color: black;
+            width: 100%;
+            height: 50%;
+            margin: auto;
+        }
+        @media (min-width: 600px){
+            div{
+                background-color: orange;
+            }
+        }
+        @media (min-width: 800px){
+            div{
+                background-color: yellow;
+            }
         }
     </style>
 </head>
 <body>
-    <div>
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Neque, temporibus et magni error quis eos.</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore inventore ab repudiandae ratione necessitatibus. Similique.</p>
-    </div>
+    <div></div>
 </body>
 </html>
