@@ -124,7 +124,6 @@ header {
     visibility: hidden;
     height: 0;
     position: absolute;
-    font-size: 1rem;
 }
 
 .nav--visible {
@@ -135,34 +134,30 @@ header {
 
 .nav__list{
     list-style: none;
-    margin: 0;
     padding: 0;
-    /* border: 1px solid black; */
+    margin: 0;
 }
-.nav__list--primary{
-    margin-bottom: 2em;
+
+.nav__list--secondary{
+    margin-top: 1em;
 }
+
 .nav__item{
-    margin-top: .5em;
-}
-.nav__item:hover,
-.nav__item:focus{
-    opacity: .75;
+    margin-top: .25em;
 }
 .nav__link{
     text-decoration: none;
-    /* display: inline-block; */
+    color: #FFF;
+    font-size: 1rem;
     text-transform: uppercase;
-    color: #fff;
 }
 
 .nav__link--button{
-    background-color: #fff;
+    background-color: #FFF;
     color: #23424A;
-    padding: .5em 1em;
+    padding: .25em .75em;
     border-radius: 2em;
 }
-
 
 .logo {
     height: 30px;
@@ -210,18 +205,18 @@ header {
         visibility: visible;
         display: flex;
         justify-content: flex-end;
-        align-items: center;
         height: auto;
-        
+        position: relative;
     }
 
     .nav__list{
         display: flex;
-        margin: 0 auto;
-    }
-    .nav__item{
         margin: 0;
     }
+    .nav__list:nth-child(1){
+        margin: 0 auto;
+    }
+
     .nav__item + .nav__item{
         margin-left: 1em;
     }
@@ -229,6 +224,7 @@ header {
     .row {
         display: flex;
         justify-content: space-between;
+
     }
 
     .hero__text {
